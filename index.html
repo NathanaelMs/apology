@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My apology</title>
+  <meta name="description"
+    content="I want to apologize but I couldn't say it myself.">
+
+
+</head>
+
+<script src="script.js"></script>
+
+<body>
+
+  <div id="intro-gate">
+    <h1 style="text-align:center; margin-top: 40vh;">An apology Website because I'm bad at saying it directly</h1>
+    <div style="text-align:center; margin-top: 20px;">
+      <audio id="backgroundMusic" autoplay loop>
+        <source src="stuffs/John Mayer - You're Gonna Live Forever in Me.mp3" type="audio/mpeg">
+      </audio>
+      <button onclick="revealPage()" style="padding: 12px 24px; font-size: 1.2em; color: white; border: none; border-radius: 8px;">
+        Click here
+      </button>
+    </div>
+  </div>
+
+  <div id="main-content" style="display: none;">
+    <header id="main-header">
+      <h1>For The One and Only Love of My Life</h1>
+    </header>
+
+    <div class="decorative-images">
+      <img src="stuffs/Mem1.jpeg" class="decor-img decor-1" alt="Memory 1">
+      <img src="stuffs/Mem2.jpg" class="decor-img decor-2" alt="Memory 2">
+      <img src="stuffs/Mem3.jpg" class="decor-img decor-3" alt="Memory 3">
+      <img src="stuffs/Mem4.jpg" class="decor-img decor-4" alt="Memory 4">
+      <img src="stuffs/Mem5.jpg" class="decor-img decor-5" alt="Memory 5">
+      <img src="stuffs/Mem6.jpg" class="decor-img decor-6" alt="Memory 6">
+    </div> 
+
+    <section id="apology-section">
+      <div class="apology-box fade-in-delay">
+        <div class="apology-text">
+          <p>Hello pookie, I want to say sorry for the last few days/weeks. Things have been rough for me but that is no excuse because I know yours are 10x more tough than mine.
+            I haven't been able to muster the courage to admit my mistakes and to chat you again, but now I have. I'm sorry for not chatting you for the past 5 days and for being cold to you in the days before.
+            I feel bad and I admit ignoring and not chatting with you is very wrong. I'm sorry if I make you sad or stressed despite already having a hard time in Bali. I was being overly possessive over you and starts
+              limiting your freedom that I have no right to control.
+            I promise to not do the same mistake again, I also will never ignore you again and won't reply coldly to you again. I want to be more direct in communicating with you. <br>I'm so sorry and I love you so much. <br>I miss you :(
+            <br><br> -Yours
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="response-section">
+      <p class="response-prompt">Can you find it in your heart to forgive me?</p>
+      <div class="button-group">
+        <button class="response-btn yes-btn" onclick="fixHeart('yes')">Yes, I forgive you</button>
+        <button class="response-btn no-btn" onclick="fixHeart('no')">I need more time</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
